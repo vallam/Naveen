@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 1.175 sec <<< FAILURE! - in TestSuite
+setUpClass(CucumberRunner)  Time elapsed: 0.894 sec  <<< FAILURE!
+cucumber.runtime.DuplicateStepDefinitionException: Duplicate step definitions in com.rxr.framework.StepDefinition.Jira.user_should_be_able_login() in file:/C:/Selenium%20project/RX-Renewal/target/test-classes/ and com.rxr.framework.StepDefinition.GmailLoginStep.user_should_be_able_login() in file:/C:/Selenium%20project/RX-Renewal/target/test-classes/
+

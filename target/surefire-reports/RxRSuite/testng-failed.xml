@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [RxRSuite]">
+  <test name="RxR_HomeScreen(failed)">
+    <classes>
+      <class name="CucumberRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature"/>
+        </methods>
+      </class> <!-- CucumberRunner -->
+    </classes>
+  </test> <!-- RxR_HomeScreen(failed) -->
+</suite> <!-- Failed suite [RxRSuite] -->

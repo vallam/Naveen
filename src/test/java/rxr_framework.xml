@@ -1,0 +1,10 @@
+<suite name="RxRSuite"  thread-count="1"
+	verbose="1">
+
+	<test name="RxR_HomeScreen" junit="false" preserve-order="true">
+		<classes>
+			<class name="CucumberRunner" />
+		</classes>
+	</test>
+
+</suite>
